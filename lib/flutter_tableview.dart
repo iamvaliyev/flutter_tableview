@@ -327,16 +327,16 @@ class _FlutterTableViewState extends State<FlutterTableView> {
               color: Colors.transparent,
               child: listViewWidget,
             ),
-//             Positioned(
-//               top: this.currentHeaderModel.topOffset,
-//               left: 0.0,
-//               right: 0.0,
-//               height: this.currentHeaderModel.height,
-//               child: Container(
-//                 color: Colors.white,
-//                 child: this.currentHeaderModel.headerWidget,
-//               ),
-//             ),
+            Positioned(
+              top: this.currentHeaderModel.topOffset,
+              left: 0.0,
+              right: 0.0,
+              height: this.currentHeaderModel.height,
+              child: Container(
+                color: Colors.white,
+                child: this.currentHeaderModel.headerWidget,
+              ),
+            ),
           ],
         ),
       );
