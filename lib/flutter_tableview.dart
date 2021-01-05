@@ -220,7 +220,6 @@ class _FlutterTableViewState extends State<FlutterTableView> {
         return ConstrainedBox(
           constraints: BoxConstraints(
             minHeight: height,
-            maxHeight: height,
           ),
           child: itemWidget,
         );
